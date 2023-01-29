@@ -691,17 +691,20 @@ footer .right{
 }
 .feedback-container {
     display: flex;
-    width: 50%;
+    width: fit-content;
     background-color: #ffffff15;
     padding: 5px;
     border-radius: 20px;
 }
 .feedback-container input{
-    flex: 1;
+    flex: 4;
     border: none;
     outline: none;
     background: transparent;
     color: #ffffff;
+}
+.feedback-container button {
+    flex: 1;
 }
 footer ul li:nth-child(1) {
     text-transform: uppercase;
